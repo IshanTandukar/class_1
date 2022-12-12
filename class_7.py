@@ -33,3 +33,28 @@ print(my_string)
 my_string2="aaabcdefaaaabababababaababaabaabbba"
 my_string2=my_string2.count("ab")
 print(my_string2)
+
+#enumerate function
+my_list = my_string.split(" ")
+#print(my_list)
+
+for index , item in enumerate(my_list):
+    if index % 2 == 0:
+        my_list[index] = item.upper()
+print(my_list)        
+
+#for item in my_list:
+    #print(item)    
+
+#without using enumerate capitalize
+ #for index , item in my_list:
+   # if my_list.index(item) % 2 == 0:
+   #     item = item.upper()
+#print(my_list)        
+
+
+#list comprehension
+b = [item.upper() for item in my_list if my_list.index(item) % 2 == 0]
+print (b)
+
+
