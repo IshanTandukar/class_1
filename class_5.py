@@ -1,3 +1,5 @@
+#Multiplication of two matrices
+
 matA=[[9,8,6],
       [5,7,5],
       [3,1,3]]
@@ -15,10 +17,6 @@ for i in range(len(matA)):
         for k in range(len(matA)):
             matC[i][j] = matC[i][j] + matA[i][k] * matB[k][j]
         
-
-
-
-
 for i in matC:
     print(i)            
 

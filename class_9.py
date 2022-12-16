@@ -1,20 +1,20 @@
 #Tuple 
 
 my_tuple = (1,2,3,"Hello","BYEBYE")
-#f#or i in my_tuple:
+#for i in my_tuple:
 #    print(i)
 
 my_list = list(my_tuple)  #Listing tuple
 print(my_list)
 
 
-my_list.append("ereeeeeeeeeeh")  
-my_list.append("ereeeeeeeeeeh") #inserting an element
+my_list.append("morning")  
+my_list.append("morning") #inserting an element
 print(my_list)
 
 tup = tuple(my_list)
 print(tup)
-print(tup.count("ereeeeeeeeeeh"))  #Counts the number of repetitions of given element
+print(tup.count("morning"))  #Counts the number of repetitions of given element
 
 
 
