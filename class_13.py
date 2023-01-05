@@ -5,7 +5,7 @@ import numpy as np
 #Numerical exercise garna numpy use hunxan
 
 
-st.title('ye')
+st.title('yes')
 
 #python -m pip freeze > requirements.txt 
 #  (project garda kheeri pip install different hunxan.
